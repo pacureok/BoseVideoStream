@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Puedes añadir tus estilos CSS personalizados aquí */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+h1, h2, h3 {
+  color: #00e676; /* Verde de Bose o similar */
+}
+
+a {
+  color: #00c853;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input, button {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+}
+
+button {
+  background-color: #007bff; /* Azul de botón */
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+section {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
