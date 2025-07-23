@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 
-// Función para hashear la contraseña
+// Función para hashear la contraseña 
 export async function hashPassword(password: string): Promise<string> {
   return bcrypt.hash(password, 10);
 }
