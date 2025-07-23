@@ -4,7 +4,7 @@ const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   // Para Vercel y Neon, SSL es importante.
   // rejectUnauthorized: false puede ser útil en desarrollo local, pero en producción,
-  // es mejor asegurarse de que sea true y que el certificado sea válido.
+  // es mejor asegurarse de que sea true y que el certificado sea válido. 
   ssl: {
     rejectUnauthorized: false,
   },
