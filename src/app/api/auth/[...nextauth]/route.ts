@@ -2,7 +2,7 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { comparePassword } from "@/src/lib/auth"; // ¡CORREGIDO AQUÍ!
-import { query } from "@/src/lib/db"; // ¡CORREGIDO AQUÍ!
+import { query } from "@/src/lib/db"; // ¡CORREGIDO AQUÍ! 
 
 export const authOptions = {
   providers: [
